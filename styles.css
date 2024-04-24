@@ -1,0 +1,79 @@
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.container{
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+  text-align: center;
+  color: #333;
+}
+
+form input, form button{
+  display: block;
+  width: calc(100% - 24px);
+  margin: 10px auto;
+  padding: 14px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+
+form input:focus, form button:focus{
+  outline: none;
+  border-color: #4d90fe;
+}
+
+form button{
+  background-color: #4d90fe;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover{
+  background-color: #357ae8;
+}
+
+.contact-item{
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-item:last-child{
+  border-bottom: none;
+}
+
+.contact-item strong{
+  color: #333;
+  flex: 1;
+}
+
+.contact-item button{
+  margin-left: 10px;
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-item button:hover {
+  background-color: #f1f1f1;
+}
